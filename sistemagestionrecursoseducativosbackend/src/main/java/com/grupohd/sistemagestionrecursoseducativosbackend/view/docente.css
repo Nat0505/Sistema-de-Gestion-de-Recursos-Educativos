@@ -1,0 +1,26 @@
+/* Estilos personalizados mínimos para complementar Bootstrap */
+aside {
+    min-width: 200px;
+    max-width: 250px;
+  }
+  
+  aside .nav-link:hover {
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+  }
+  
+  main {
+    background-color: #f8f9fa;
+  }
+  
+  /* Estilos para la imagen */
+  img.img-fluid {
+    margin-bottom: 1rem;
+    max-height: 800px; /* Reduce la altura máxima */
+    max-width: 800px; /* Limita el ancho al 100% del contenedor */
+    width: auto; /* Mantiene la proporción original */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente */
+    display: block; /* Centra la imagen horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+  }
