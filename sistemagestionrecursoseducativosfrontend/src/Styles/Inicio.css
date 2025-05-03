@@ -1,0 +1,52 @@
+/* Estilos generales para la tarjeta */
+
+.section-home{
+    margin: 100px 20px;
+}
+
+.section-home-greeting{
+    margin-left: 20px;
+}
+.cursos-conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 270px;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden; /* Para asegurarse de que todo se vea dentro de la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos para la imagen */
+  .card-img {
+    width: 50px;
+    height: 50px ; /* Puedes ajustar la altura según tu necesidad */
+    object-fit: cover; /* Esto asegura que la imagen cubra todo el área sin distorsionarse */
+  }
+  
+  /* Estilos para el contenido de la tarjeta */
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .card-content p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
